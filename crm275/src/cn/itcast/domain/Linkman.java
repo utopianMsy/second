@@ -14,6 +14,7 @@ import javax.persistence.Table;
 public class Linkman {
 
 	private String aa;
+	
 	@Id
 	@GeneratedValue(strategy=GenerationType.IDENTITY)
 	@Column(name="lkm_id")
