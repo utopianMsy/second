@@ -13,7 +13,7 @@ import javax.persistence.Table;
 @Table(name="cst_linkman")
 public class Linkman {
 
-	private String a1;
+	private String aa;
 	@Id
 	@GeneratedValue(strategy=GenerationType.IDENTITY)
 	@Column(name="lkm_id")
